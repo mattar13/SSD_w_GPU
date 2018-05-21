@@ -1,0 +1,26 @@
+<annotation>
+    <folder>train_imgs</folder>
+    <filename>image_35.png</filename>
+    <path>C:\pyscripts\ssd_keras-master\train_imgs\image_35.png</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Collectible</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>180</xmin>
+            <ymin>171</ymin>
+            <xmax>238</xmax>
+            <ymax>227</ymax>
+        </bndbox>
+    </object>
+</annotation>

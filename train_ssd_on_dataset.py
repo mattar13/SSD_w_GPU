@@ -1148,12 +1148,12 @@ if __name__ == "__main__":
     
     print("Model compilation completed")
     nb_epoch = 30
-    #history = model.fit_generator(gen.generate(True), gen.train_batches,
-    #                              nb_epoch, verbose=1,
-    #                              callbacks=callbacks,
-    #                              validation_data=gen.generate(False),
-    #                              nb_val_samples=gen.val_batches,
-    #                              nb_worker=1)
+    history = model.fit_generator(gen.generate(True), gen.train_batches,
+                                  nb_epoch, verbose=1,
+                                  callbacks=callbacks,
+                                  validation_data=gen.generate(False),
+                                  nb_val_samples=gen.val_batches,
+                                  nb_worker=1)
     
     print("Model optimized")
     model.save_weights(config['save_model_path'])

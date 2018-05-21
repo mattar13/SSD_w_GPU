@@ -1,0 +1,1 @@
+{"num_class": 5, "input_shape": [300, 300, 3], "epochs": 10, "save_model_path": "C:\\pyscripts\\Player1\\new_model.h5", "prior_pickle": "C:\\pyscripts\\Player1\\prior_boxes_ssd300.pkl", "img_directory": "C:\\pyscripts\\Player1\\train_imgs\\", "save_label_pickle": "C:\\pyscripts\\Player1\\p1.pkl", "annotation_directory": "C:\\pyscripts\\Player1\\annotations\\"}
